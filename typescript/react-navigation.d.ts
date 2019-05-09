@@ -731,6 +731,7 @@ declare module 'react-navigation' {
     isFocused: () => boolean;
     router?: NavigationRouter;
     dangerouslyGetParent: () => NavigationScreenProp<S> | undefined;
+    getScreenProps: () => ScreenProps;
   }
 
   export interface NavigationNavigatorProps<O = {}, S = {}> {
